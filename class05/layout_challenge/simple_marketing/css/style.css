@@ -1,0 +1,50 @@
+/* Box Sizing */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Base Styles */
+
+body {
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Layout */
+
+header {
+	background-color: lavender;
+	padding: 10px;
+	border: 2px solid #333;
+	padding: 2%;
+}
+
+article {
+	background-color: canary;
+	padding: 10px;
+	width: 50%;
+	float: left;
+	border: 2px solid #333;
+	padding: 2%;
+}
+
+aside {
+	background: lime;
+	padding: 10px;
+	float: left;
+	width: 33.3%;
+	border: 2px solid #333;
+	padding: 2%;
+}
+
+footer {
+	width: 100%
+	float: left;
+	background: skyblue;
+	padding: 2%;
+	border: 2px solid #333;
+}

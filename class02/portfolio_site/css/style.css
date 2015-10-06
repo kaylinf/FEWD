@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #f6f6f6;
 	border-top: solid 4px black;
 	border-bottom: solid 4px black;
@@ -21,8 +21,8 @@ h1 {
 img {
 	float: right;
 	margin: 20px;
-   	padding:4px;
-   	border:1px solid #021a40;   	
+   	padding: 4px;
+   	border: 1px solid #021a40;   	
 }
 h2 {
 	font-family: helvetica;
@@ -34,7 +34,7 @@ h2 {
 p {
 	font-family: georgia;
 	text-align: left;
-	line-height:25px;
+	line-height: 25px;
 	margin-bottom: 25px;
 }
 footer {

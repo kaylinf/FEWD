@@ -1,0 +1,44 @@
+html {
+	box-sizing: border-box;
+}
+​*, *​:before, *:after {
+ box-sizing: inherit;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clear {
+	overflow: auto;
+}
+
+header {
+	background: skyblue;
+}
+
+article{
+	background: magenta;
+	float: left;
+	width: 60%;
+}
+
+aside {
+	background: lime;
+	float: right;
+	width: 40%;
+}
+
+footer {
+	background: lavender;
+	clear: both;
+}
+
+div {
+	border: 1px solid black;
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
