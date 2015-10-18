@@ -48,6 +48,7 @@ Developer @GA in NYC
 body {
      line-height: 1;
      font-family: Open Sans, Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
 }
 
 
@@ -58,6 +59,7 @@ body {
 /* Center the container */
 #container {
   margin: auto;
+  width: 100%;
 }
 
 header {
@@ -71,7 +73,7 @@ h1 {
   color: white;
   margin: 0;
   font-size: 30px;
-  margin-left: 20px;
+  margin-left: 2.4%;
 }
 
 nav {
@@ -93,10 +95,105 @@ header li {
   margin-right: 6%;
 }
 
-footer {
-  background-color: black;
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
 }
 
+p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  text-align: right;
+}
+
+section {
+  background-color: #f0efef;
+  margin-top: -20px;
+  clear: both;
+}
+
+article {
+  width: 700px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 3%;
+  vertical-align: top;
+}
+
+.section2 {
+  float: right;
+  width: 240px;
+  padding-left: 35px;
+  vertical-align: top;
+  margin-top: -1400px;
+  margin-right: 250px;
+}
+
+.article2 {
+  background-color: yellow;
+  width: 100%;
+  margin-left: 0;
+}
+
+.button2 {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  width: 150px;
+  background-color: #000080;
+  color: white; 
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 45%;
+  margin-bottom: 20px;
+}
+
+.article1 {
+  margin-left: 5%;
+  border-bottom: thin solid;
+}
+
+footer {
+  clear: both;
+  background-color: black;
+  height: 150px;
+}
+
+.footer {
+  color: yellow;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.footer1 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.twitter {
+  display: inline;
+  position: relative;
+  padding-left: 570px;
+}
+
+.facebook {
+  display: inline;
+  position: relative;
+  padding-left: 80px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
