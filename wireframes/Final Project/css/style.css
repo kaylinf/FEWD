@@ -1,0 +1,132 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+/*Placeholder*/
+	box-sizing: border-box;
+	/*background-image: url(../images/PabstBrewerySign.jpg);*/
+	
+}
+
+header {
+	background-image: url(../images/PabstBrewerySign.jpg);
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+}
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	text-align: left;
+	color: white;
+	padding-top: 525px;
+	padding-left: 52px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	text-align: center;
+	padding: 5%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cafeLulu {
+	height: 700px;
+	background-image: url(../images/placeholder.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	color: white;
+
+}
+
+.breweryTour {
+	height: 700px;
+	background-image: url(../images/lakefront_bottles.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+.packinghouse {
+	height: 700px;
+	background-image: url(../images/fishfry.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	color: white;	
+}
+
+.cafeBenelux {
+	height: 700px;
+	background-image: url(../images/cafebenelux.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+.thirdWard {
+	height: 700px;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+.lunch {
+	height: 700px;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+.someActivity {
+	height: 700px;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+.belAir {
+	height: 700px;
+	background-size: cover;
+	position: relative;
+	padding: 3%;
+	background-color: gray;
+	color: white;	
+}
+
+
+
+
