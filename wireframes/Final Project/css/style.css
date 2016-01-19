@@ -80,9 +80,10 @@ p {
 	color: white;	
 }
 
+
 .cafeBenelux {
 	height: 700px;
-	background-image: url(../images/cafebenelux.jpg);
+	background-image: url(../images/honeypie2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -93,6 +94,8 @@ p {
 
 .thirdWard {
 	height: 700px;
+	background-image: url(../images/Thirdward_Riverwalk.jpeg);
+	background-repeat: no-repeat;	
 	background-size: cover;
 	position: relative;
 	padding: 3%;
@@ -102,6 +105,8 @@ p {
 
 .lunch {
 	height: 700px;
+	background-image: url(../images/Leons.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	padding: 3%;
@@ -111,6 +116,8 @@ p {
 
 .someActivity {
 	height: 700px;
+	background-image: url(../images/mke_art_ps.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	padding: 3%;
@@ -120,6 +127,8 @@ p {
 
 .belAir {
 	height: 700px;
+	background-image: url(../images/ianspizza.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	padding: 3%;
@@ -127,6 +136,10 @@ p {
 	color: white;	
 }
 
+.belAir h2 {
+	color: white; 
+	padding-left: 850px;
+}
 
 
 
